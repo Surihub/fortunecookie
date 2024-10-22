@@ -4,6 +4,12 @@ import random
 import time
 from openai import OpenAI
 
+st.set_page_config(
+   page_title='포춘쿠키',
+   page_icon='🥠', 
+)
+
+
 st.title("🥠 포춘쿠키 하나 먹어보세요!")
 st.success(
     "시험 기간 지친 여러분을 위해 선생님이 포춘쿠키를 준비했어요. **by 여러분의 담임쌤**"
